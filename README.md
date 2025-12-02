@@ -2,21 +2,6 @@
 
 This repository contains my Advent of Code solutions (https://adventofcode.com). Solutions are written in TypeScript and organized by year and day.
 
-## Structure
-
-- <year>/<day>/
-  - part01.ts
-  - part02.ts
-  - input.txt         — puzzle input (not committed publicly if sensitive)
-  - sample-input.txt  — example inputs for development
-  - assets/           — optional helpers for that year/day
-
-Top-level:
-- package.json
-- tsconfig.json
-- .gitignore
-- LICENSE            — project license (MIT template by default)
-
 ## Conventions
 
 - Each puzzle day has two entry files: `part01.ts` and `part02.ts`.
