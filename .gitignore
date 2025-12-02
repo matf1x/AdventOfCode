@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+lib/
+out/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# TypeScript compiled artifacts (optional; keep if you commit compiled output)
+# Comment out the following if you intentionally commit JS/DTS files
+*.js
+*.js.map
+*.d.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Editor/IDE
+.vscode/
+!.vscode/settings.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Caches and temp
+.cache/
+.parcel-cache/
+.next/
+.vercel/
+bower_components/
+tmp/
+temp/
+
+# Lock files (usually committed; uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Misc
+coverage/
+reports/
+*.tgz
+
+# AOC specific
+input.txt
