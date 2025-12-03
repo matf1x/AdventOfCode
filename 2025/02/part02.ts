@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 
-const input = await fs.readFile('./input.txt', 'utf-8');
+const input = await fs.readFile('./sample-input.txt', 'utf-8');
 
 function isInvalidId(value: Number): boolean {
     const valueString = value.toString();

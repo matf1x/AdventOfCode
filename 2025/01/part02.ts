@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 
-const input = await fs.readFile('./input.txt', 'utf-8');
+const input = await fs.readFile('./sample-input.txt', 'utf-8');
 
 const STARTPOS = 50;
 const MINPOS = 0;
